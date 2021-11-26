@@ -3,12 +3,13 @@
 This is a command line tool.
 Use as in the example.
 ```
-Folder to delete:D:\test1
+>python bulky_deleter.py D:\test1
 ```
 
 It will give the result.
 
 ```
+Folder to delete:D:\test1
 it took 0.0049697999999999964
 Log filename: deleted_2021_11_26_19_51.log
 ```
