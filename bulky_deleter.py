@@ -42,8 +42,7 @@ def remove_file(id,fname):
 
 def main():
 	"""This is a comman line tool. This script is deleting folder recursively with threading and save log file.
-	Please be carefully what you insert in the command line. The author is not responsivle
-	for wrongly deleted folder"""
+	Please be carefully what you insert in the command line. """
 
 	dirs = [os.path.join(my_folder,filepath) for filepath in os.listdir(my_folder)]
 	files = []
